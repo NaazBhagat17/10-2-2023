@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Assignment3</title>
+    <script>
+        
+        $(document).ready(function(){  
+            $("#btn1").click(function(){
+            $("ol-2").prepend("<li>Prepended item</li>");
+            // $("ol-2").insertAfter("ol-1");
+            });
+            $("#btn2").click(function(){
+            $("ol-1").remove("");
+            // $("ol-2").insertAfter("ol-1");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <p>Make a div with ten names and use the prepend() and append() methods to swap each name to another div one at a time and vice versa</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <ol-1>
+                <li>Virat Kohli</li>
+                <li>Babar Azam</li>
+                <li>Sachin Tendulkar</li>
+                <li>Kane Williamson</li>
+                <li>Rohit Sharma</li>
+                <li>Quinton de Kock</li>
+                <li>MS Dhoni</li>
+                <li>David Warner</li>
+                <li>Brian Lara</li>
+                <li>Steve Smith</li>
+            </ol>
+
+        <button class="b1" id="btn1">Swip</button>
+        </div>
+        
+
+        <div class="col-md-6">
+            <ol-2>
+                <li>ADD ON</li>
+                <li>ADD ON</li>
+                <li>ADD ON</li>
+            </ol>
+        </div>
+        <button class="b2" id="btn2">Swap</button>
+    </div>
+        
+
+
+    
+    
+        
+
+   
+    
+
+<link rel="stylesheet" href="script.js">
+</body>
+</html>
