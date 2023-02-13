@@ -1,0 +1,45 @@
+$(document).ready(function(){  
+    $("#btn1").click(function(){
+    $("#1").appendTo("#list2");
+        $("#btn1").click(function(){
+        $("#2").appendTo("#list2");
+            $("#btn1").click(function(){
+            $("#3").appendTo("#list2");
+                $("#btn1").click(function(){
+                $("#4").appendTo("#list2");
+                    $("#btn1").click(function(){
+                    $("#5").appendTo("#list2");
+                        $("#btn1").click(function(){
+                        $("#6").appendTo("#list2");
+                            $("#btn1").click(function(){
+                            $("#7").appendTo("#list2");
+                                $("#btn1").click(function(){
+                                $("#8").appendTo("#list2");
+                                    $("#btn1").click(function(){
+                                    $("#9").appendTo("#list2");
+                                        $("#btn1").click(function(){
+                                        $("#10").appendTo("#list2");             
+    });});});});});});});});});});
+
+    $("#btn2").click(function(){
+    $("#1").prependTo("#list1");
+        $("#btn2").click(function(){
+        $("#2").prependTo("#list1");
+            $("#btn2").click(function(){
+            $("#3").prependTo("#list1");
+                $("#btn2").click(function(){
+                $("#4").prependTo("#list1");
+                    $("#btn2").click(function(){
+                    $("#5").prependTo("#list1");
+                        $("#btn2").click(function(){
+                        $("#6").prependTo("#list1");
+                            $("#btn2").click(function(){
+                            $("#7").prependTo("#list1");
+                                $("#btn2").click(function(){
+                                $("#8").prependTo("#list1");
+                                    $("#btn2").click(function(){
+                                    $("#9").prependTo("#list1");
+                                        $("#btn2").click(function(){
+                                        $("#10").prependTo("#list1");             
+    });});});});});});});});});});
+});
